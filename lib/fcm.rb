@@ -2,6 +2,7 @@ require 'httparty'
 require 'cgi'
 require 'json'
 
+
 class FCM
   include HTTParty
   base_uri 'https://fcm.googleapis.com/fcm'
